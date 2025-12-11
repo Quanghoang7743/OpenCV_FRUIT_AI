@@ -1,0 +1,40 @@
+# Configuration file for Fruit Detector Application
+
+# Model Configuration
+model:
+  default_path: "models/fruit_detector_last.pt"
+  confidence_threshold: 0.35
+  iou_threshold: 0.45
+  image_size: 640
+
+# Camera Configuration
+camera:
+  default_index: 0
+  width: 1280
+  height: 720
+  fps: 30
+
+# UI Configuration
+ui:
+  theme: "dark"  # dark or light
+  color_theme: "blue"
+  window_width: 1400
+  window_height: 850
+
+# Classes (9 fruit classes)
+classes:
+  0: apple
+  1: banana
+  2: cherry
+  3: lemon
+  4: orange
+  5: peach
+  6: pear
+  7: strawberry
+  8: watermelon
+
+# Paths
+paths:
+  input_images: "data/input"
+  output_images: "data/output"
+
