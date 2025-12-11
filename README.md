@@ -1,5 +1,3 @@
-# Đề xuất cấu trúc thư mục cho dự án OpenCV Fruit AI
-
 ## 📁 Cấu trúc thư mục
 
 ```
