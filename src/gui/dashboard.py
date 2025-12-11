@@ -121,7 +121,7 @@ class StatisticsDashboard(ctk.CTkFrame):
                 
                 class_label = ctk.CTkLabel(
                     class_frame,
-                    text=f"🍎 {class_name.capitalize()}: {count} detections",
+                    text=f"{class_name.capitalize()}: {count} detections",
                     font=ctk.CTkFont(size=14, weight="bold")
                 )
                 class_label.pack(anchor="w", padx=10, pady=5)

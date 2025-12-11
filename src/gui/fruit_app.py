@@ -90,7 +90,7 @@ class FruitDetectorGUI:
             messagebox.showerror("Error", msg)
 
     def choose_image(self):
-        filetypes = (("Images", "*.jpg *.png"), ("All", "*.*"))
+        filetypes = (("Images", "*.jpg *.png *.webp"), ("All", "*.*"))
         path = filedialog.askopenfilename(filetypes=filetypes)
         if path:
             self.image_path = path
